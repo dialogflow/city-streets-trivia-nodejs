@@ -1,0 +1,30 @@
+{
+  "name": "creating-entities-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dialogflow": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-google": "^0.10.0"
+  },
+  "eslintConfig": {
+    "extends": "google",
+    "rules": {
+      "max-len": [
+        "error",
+        {
+          "code": 100,
+          "ignoreUrls": true
+        }
+      ]
+    }
+  }
+}
